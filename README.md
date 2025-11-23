@@ -69,6 +69,10 @@ RedWineAnalysis-R/
 │
 ├── install.R
 └── README.md
+│
+├── .gitignore
+└── docs
+└── LICENSE
 ```
 
 ## 📦 Required R Packages
