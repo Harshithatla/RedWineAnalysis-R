@@ -1,0 +1,108 @@
+
+Call:
+lm(formula = as.numeric(quality) ~ alcohol, data = training_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.5277 -0.3935 -0.1585  0.5394  2.5394 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   0.1037     0.2252   0.461    0.645    
+alcohol       0.3357     0.0215  15.614   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7044 on 957 degrees of freedom
+Multiple R-squared:  0.203,	Adjusted R-squared:  0.2022 
+F-statistic: 243.8 on 1 and 957 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = as.numeric(quality) ~ alcohol + sulphates, data = training_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.6226 -0.3881 -0.1022  0.4917  2.2136 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -0.3778     0.2318  -1.630    0.103    
+alcohol       0.3243     0.0211  15.370  < 2e-16 ***
+sulphates     0.9188     0.1379   6.664  4.5e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.689 on 956 degrees of freedom
+Multiple R-squared:  0.2384,	Adjusted R-squared:  0.2368 
+F-statistic: 149.6 on 2 and 956 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = as.numeric(quality) ~ alcohol + sulphates + volatile.acidity, 
+    data = training_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.68980 -0.37655 -0.03838  0.41928  1.99344 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.96620    0.25038   3.859 0.000122 ***
+alcohol           0.28778    0.02016  14.273  < 2e-16 ***
+sulphates         0.56403    0.13391   4.212 2.77e-05 ***
+volatile.acidity -1.38739    0.12622 -10.992  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6495 on 955 degrees of freedom
+Multiple R-squared:  0.3239,	Adjusted R-squared:  0.3218 
+F-statistic: 152.5 on 3 and 955 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = as.numeric(quality) ~ alcohol + sulphates + volatile.acidity + 
+    citric.acid, data = training_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.67695 -0.38692 -0.03824  0.41091  2.02162 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       1.06660    0.25762   4.140 3.78e-05 ***
+alcohol           0.28760    0.02015  14.276  < 2e-16 ***
+sulphates         0.60667    0.13633   4.450 9.59e-06 ***
+volatile.acidity -1.51609    0.14875 -10.192  < 2e-16 ***
+citric.acid      -0.21805    0.13366  -1.631    0.103    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6489 on 954 degrees of freedom
+Multiple R-squared:  0.3258,	Adjusted R-squared:  0.323 
+F-statistic: 115.3 on 4 and 954 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = as.numeric(quality) ~ alcohol + sulphates + volatile.acidity + 
+    citric.acid + fixed.acidity, data = training_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.74294 -0.37624 -0.04185  0.40954  2.02455 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.66742    0.28385   2.351 0.018908 *  
+alcohol           0.29494    0.02017  14.624  < 2e-16 ***
+sulphates         0.62546    0.13576   4.607 4.64e-06 ***
+volatile.acidity -1.60401    0.15042 -10.664  < 2e-16 ***
+citric.acid      -0.61175    0.17930  -3.412 0.000672 ***
+fixed.acidity     0.05581    0.01705   3.274 0.001100 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6456 on 953 degrees of freedom
+Multiple R-squared:  0.3333,	Adjusted R-squared:  0.3298 
+F-statistic: 95.29 on 5 and 953 DF,  p-value: < 2.2e-16
+

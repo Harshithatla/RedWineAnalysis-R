@@ -1,0 +1,21 @@
+       X          fixed.acidity   volatile.acidity  citric.acid    residual.sugar     chlorides      
+ Min.   :   1.0   Min.   : 4.60   Min.   :0.1200   Min.   :0.000   Min.   : 0.900   Min.   :0.01200  
+ 1st Qu.: 400.5   1st Qu.: 7.10   1st Qu.:0.3900   1st Qu.:0.090   1st Qu.: 1.900   1st Qu.:0.07000  
+ Median : 800.0   Median : 7.90   Median :0.5200   Median :0.260   Median : 2.200   Median :0.07900  
+ Mean   : 800.0   Mean   : 8.32   Mean   :0.5278   Mean   :0.271   Mean   : 2.539   Mean   :0.08747  
+ 3rd Qu.:1199.5   3rd Qu.: 9.20   3rd Qu.:0.6400   3rd Qu.:0.420   3rd Qu.: 2.600   3rd Qu.:0.09000  
+ Max.   :1599.0   Max.   :15.90   Max.   :1.5800   Max.   :1.000   Max.   :15.500   Max.   :0.61100  
+ free.sulfur.dioxide total.sulfur.dioxide    density             pH          sulphates         alcohol     
+ Min.   : 1.00       Min.   :  6.00       Min.   :0.9901   Min.   :2.740   Min.   :0.3300   Min.   : 8.40  
+ 1st Qu.: 7.00       1st Qu.: 22.00       1st Qu.:0.9956   1st Qu.:3.210   1st Qu.:0.5500   1st Qu.: 9.50  
+ Median :14.00       Median : 38.00       Median :0.9968   Median :3.310   Median :0.6200   Median :10.20  
+ Mean   :15.87       Mean   : 46.47       Mean   :0.9967   Mean   :3.311   Mean   :0.6581   Mean   :10.42  
+ 3rd Qu.:21.00       3rd Qu.: 62.00       3rd Qu.:0.9978   3rd Qu.:3.400   3rd Qu.:0.7300   3rd Qu.:11.10  
+ Max.   :72.00       Max.   :289.00       Max.   :1.0037   Max.   :4.010   Max.   :2.0000   Max.   :14.90  
+ quality     rating    
+ 3: 10   bad    :  63  
+ 4: 53   average:1319  
+ 5:681   good   : 217  
+ 6:638                 
+ 7:199                 
+ 8: 18                 
